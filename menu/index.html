@@ -100,6 +100,72 @@
                 font-size: 18px;
             }
         }
+         /* New styles for instructions and announcements */
+        .instructions-section {
+            background: #fff3e0;
+            border-radius: 12px;
+            padding: 24px;
+            margin: 24px 0;
+            border-left: 5px solid #ff9800;
+        }
+
+        .festival-section {
+            background: #e8f5e9;
+            border-radius: 12px;
+            padding: 24px;
+            margin: 24px 0;
+            border-left: 5px solid #4caf50;
+        }
+
+        .instruction-title {
+            color: #e65100;
+            font-size: 24px;
+            margin-bottom: 16px;
+            font-weight: bold;
+        }
+
+        .festival-title {
+            color: #2e7d32;
+            font-size: 24px;
+            margin-bottom: 16px;
+            font-weight: bold;
+        }
+
+        .instruction-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .instruction-list li {
+            padding: 8px 0;
+            position: relative;
+            padding-left: 24px;
+        }
+
+        .instruction-list li:before {
+            content: "•";
+            color: #ff9800;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        .festival-text {
+            margin: 12px 0;
+            line-height: 1.8;
+        }
+
+        @media (max-width: 768px) {
+            .instructions-section, .festival-section {
+                padding: 16px;
+                margin: 16px 0;
+            }
+
+            .instruction-title, .festival-title {
+                font-size: 20px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -597,6 +663,34 @@
                 <td class="price">49</td>
             </tr>
         </table>
+    </div>
+    
+    <!-- Instructions Section -->
+    <div class="instructions-section">
+        <h2 class="instruction-title">Cooking Preferences</h2>
+        <ul class="instruction-list">
+            <li>Feel free to customize your food with your preferred spice level - Mild, Medium, or Spicy. Please let your server know.</li>
+            <li>Please inform us of any allergies or dietary preferences and we will adjust the dishes accordingly.</li>
+            <li>Our food is prepared fresh to maintain authenticity. Please allow 20-25 minutes for preparation.</li>
+            <li>Enjoy our flavorful food at home. Call or order online for takeaway or delivery with no extra charges.</li>
+            <li>For grilled or roasted meat, please specify your preferred doneness: Rare, Medium, or Well-done.</li>
+        </ul>
+    </div>
+
+    <!-- Festival Announcement Section -->
+    <div class="festival-section">
+        <h2 class="festival-title">Special Festival Announcement</h2>
+        <div class="festival-text">
+            <p>During Navratri we will be serving pure vegetarian meals in respect of the spiritual and cultural significance of the occasion. Our team has curated a variety of flavorful vegetarian dishes that uphold the traditions and spirit of the festival.</p>
+            <p>Try our festive thali, which includes a selection of traditional dishes prepared especially for the occasion.</p>
+            <p>We appreciate your understanding and wish you a joyous and blessed puja festival.</p>
+        </div>
+    </div>
+
+    <!-- Restaurant Logo and Contact Section -->
+    <div class="menu-section" style="text-align: center; margin-top: 30px;">
+        <h3 style="color: #666; font-size: 1.1em;">Thank you for dining with us!</h3>
+        <p style="color: #666; font-size: 0.9em;">For reservations and delivery, please contact us.</p>
     </div>
 </body>
 </html>
