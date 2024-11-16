@@ -166,9 +166,87 @@
                 font-size: 20px;
             }
         }
+         .header-wrapper {
+            background: #8B0000;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            position: relative;
+            z-index: 1;
+            padding: 20px;
+        }
+
+        .logo-section {
+            flex: 0 0 auto;
+        }
+
+        .logo-svg {
+            width: 250px;
+            height: auto;
+        }
+
+        .info-section {
+            flex: 1;
+            text-align: center;
+        }
+
+        .restaurant-name {
+            color: #DAA520;
+            font-size: 52px;
+            font-weight: bold;
+            margin: 0 0 20px 0;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            letter-spacing: 2px;
+        }
+
+        .restaurant-details {
+            color: #DAA520;
+            font-size: 20px;
+            margin: 12px 0;
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+        }
+
+        @media (max-width: 768px) {
+            .header-container {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .restaurant-name {
+                font-size: 32px;
+            }
+
+            .restaurant-details {
+                font-size: 16px;
+            }
+
+            .logo-svg {
+                width: 200px;
+            }
+        }
     </style>
 </head>
 <body>
+    <div class="header-wrapper">
+        <div class="header-container">
+            <div class="info-section">
+                <h1 class="restaurant-name">MAYUKHA DINE & DRINKS</h1>
+                <p class="restaurant-details">Address: Above GD Marbles, Near MMT Ground, Ramgarh - 829122</p>
+                <p class="restaurant-details">Phone No: 9065274100</p>
+                <p class="restaurant-details">Registration number: UDYAM-JH-19-001471147</p>
+                <p class="restaurant-details">FSSAI Number: Z11248600097</p>
+            </div>
+        </div>
+    </div>
     <!-- Appetizers Section -->
     <div class="menu-section">
         <h2 class="section-title">Appetizers (Veg)</h2>
