@@ -310,3 +310,79 @@ Phone No: 9065274100
 | Pudina Paratha | 49 |
 | Paneer Paratha | 79 |
 | Chicken Keema Paratha | 69 |
+
+## Raita
+
+| Item | Price (₹) |
+|------|-----------|
+| Mix Raita | 99 |
+| Boondi Raita | 99 |
+| Onion Raita | 89 |
+| Cucumber Raita | 89 |
+
+## Beverages
+
+### Tea & Coffee
+*@ Under Rs 89/-*
+
+| Item | Price (₹) |
+|------|-----------|
+| Tea | 20 |
+| Classic Black Tea | 20 |
+| Green Tea | 29 |
+| Masala Tea | 29 |
+| Coffee | 29 |
+| Cold Coffee | 69 |
+| Hot Chocolate | 69 |
+
+### Cold Beverages
+
+| Item | Price (₹) |
+|------|-----------|
+| Fresh Lime Soda | 39 |
+| Lemonade | 39 |
+| Lassi (Sweet / Salted / Mix) | 49 |
+| Curd with Sugar / Salt | 49 |
+| Buttermilk (Plain / Masala) | 49 |
+| Cold Drinks | 39 |
+| Masala Cold Drink | 49 |
+| Virgin Mojito | 49 |
+| Green Apple Mojito | 49 |
+| Blue Lagoon | 59 |
+| Milk Shake | 59 |
+| Vanilla Shake | 79 |
+| Strawberry Shake | 79 |
+| Butterscotch Shake | 79 |
+| Chocolate Shake | 59 |
+| Oreo Shake | 79 |
+| Mango Shake | 79 |
+| Pineapple Shake | 79 |
+| Mix Fruit Shake | 79 |
+
+## Delicious Desserts
+
+| Item | Quantity | Price (₹) |
+|------|----------|-----------|
+| Gulab Jamun | 2 Pcs | 40 |
+| Rasgulla with Dahi | 1 Pcs | 30 |
+| Ice Cream (Vanilla / Butterscotch) | - | 49 |
+
+## Cooking Preferences
+
+- Feel free to customize your food with your preferred spice level - Mild, Medium, or Spicy. Please let your server know.
+- Please inform us of any allergies or dietary preferences and we will adjust the dishes accordingly.
+- Our food is prepared fresh to maintain authenticity. Please allow 20-25 minutes for preparation.
+- Enjoy our flavorful food at home. Call or order online for takeaway or delivery with no extra charges.
+- For grilled or roasted meat, please specify your preferred doneness: Rare, Medium, or Well-done.
+
+## Special Festival Announcement
+
+During Navratri we will be serving pure vegetarian meals in respect of the spiritual and cultural significance of the occasion. Our team has curated a variety of flavorful vegetarian dishes that uphold the traditions and spirit of the festival.
+
+Try our festive thali, which includes a selection of traditional dishes prepared especially for the occasion.
+
+We appreciate your understanding and wish you a joyous and blessed puja festival.
+
+### Thank you for dining with us!
+
+For reservations and delivery, please contact us.
