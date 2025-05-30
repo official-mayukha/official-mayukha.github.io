@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mayukha Dine and Drink - Ramgarh Cantt</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>Mayukha</h1>
+                    <p>Dine and Drink</p>
+                </div>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <a href="#reservations" class="btn">Book a Table</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Experience Authentic Flavors</h2>
+                <p>Taste the tradition, savor the innovation.</p>
+                <a href="#menu" class="btn btn-primary">View Our Menu</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h2>About Mayukha</h2>
+                <p>Mayukha Dine and Drink is your culinary haven in Ramgarh Cantt. We pride ourselves on serving a
+                    diverse range of Indian and Chinese delicacies, prepared with the freshest ingredients and a touch
+                    of homemade goodness. Our commitment is to provide a delightful dining experience with generous
+                    portions, exquisite taste, and exceptional service. Come and discover why our customers keep coming
+                    back for more!</p>
+                <p>Whether you're looking for a hearty family meal or a quick bite, Mayukha promises to satisfy your
+                    cravings. We focus on healthy, hygienic, and incredibly flavorful food that makes every visit
+                    memorable.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://via.placeholder.com/400x300?text=Restaurant+Interior" alt="Restaurant Interior">
+            </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2>Our Delicious Menu</h2>
+            <div class="menu-categories">
+                <button class="menu-btn active" data-category="indian">Indian Delights</button>
+                <button class="menu-btn" data-category="chinese">Chinese Specials</button>
+                <button class="menu-btn" data-category="biryani">Biryani & Rice</button>
+                <button class="menu-btn" data-category="fastfood">Fast Food & Snacks</button>
+            </div>
+
+            <div class="menu-items" id="indian-menu">
+                <h3>Indian Delights</h3>
+                <div class="menu-item">
+                    <h4>Butter Chicken</h4>
+                    <p>Creamy tomato gravy with tender chicken pieces.</p>
+                    <span>₹350</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Paneer Butter Masala</h4>
+                    <p>Cottage cheese cubes in a rich, buttery gravy.</p>
+                    <span>₹280</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Dal Makhani</h4>
+                    <p>Slow-cooked black lentils in a creamy, smoky flavor.</p>
+                    <span>₹220</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Tandoori Chicken</h4>
+                    <p>Marinated chicken grilled to perfection in a tandoor.</p>
+                    <span>₹300</span>
+                </div>
+            </div>
+
+            <div class="menu-items hidden" id="chinese-menu">
+                <h3>Chinese Specials</h3>
+                <div class="menu-item">
+                    <h4>Chilli Chicken Dry</h4>
+                    <p>Spicy fried chicken tossed with bell peppers and onions.</p>
+                    <span>₹320</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Veg Hakka Noodles</h4>
+                    <p>Stir-fried noodles with fresh vegetables.</p>
+                    <span>₹200</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Chicken Fried Rice</h4>
+                    <p>Classic fried rice with succulent chicken.</p>
+                    <span>₹250</span>
+                </div>
+            </div>
+
+            <div class="menu-items hidden" id="biryani-menu">
+                <h3>Biryani & Rice</h3>
+                <div class="menu-item">
+                    <h4>Chicken Biryani</h4>
+                    <p>Aromatic basmati rice cooked with spiced chicken.</p>
+                    <span>₹380</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Veg Biryani</h4>
+                    <p>Flavorful basmati rice with assorted vegetables.</p>
+                    <span>₹280</span>
+                </div>
+            </div>
+
+            <div class="menu-items hidden" id="fastfood-menu">
+                <h3>Fast Food & Snacks</h3>
+                <div class="menu-item">
+                    <h4>French Fries</h4>
+                    <p>Crispy golden fries, perfectly salted.</p>
+                    <span>₹120</span>
+                </div>
+                <div class="menu-item">
+                    <h4>Veg Momos</h4>
+                    <p>Steamed dumplings filled with seasoned vegetables.</p>
+                    <span>₹150</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="image-grid">
+                <img src="https://via.placeholder.com/300x200?text=Dish+1" alt="Dish 1">
+                <img src="https://via.placeholder.com/300x200?text=Dish+2" alt="Dish 2">
+                <img src="https://via.placeholder.com/300x200?text=Interior+Shot" alt="Interior Shot">
+                <img src="https://via.placeholder.com/300x200?text=Chef+Special" alt="Chef Special">
+                <img src="https://via.placeholder.com/300x200?text=Ambiance" alt="Ambiance">
+                <img src="https://via.placeholder.com/300x200?text=Beverage" alt="Beverage">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> Gola Road, Ramgarh Cantt, Ramgarh-Jharkhand - 829122</p>
+                <p><i class="fas fa-phone"></i> +91 12345 67890 (Example Number)</p>
+                <p><i class="fas fa-envelope"></i> info@mayukhadineanddrink.com (Example Email)</p>
+                <p><i class="fas fa-clock"></i> Open Daily until 11:00 PM</p>
+            </div>
+            <div class="contact-form">
+                <h3>Send us a Message</h3>
+                <form action="#" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="reservations" class="reservations-section">
+        <div class="container">
+            <h2>Book Your Table</h2>
+            <p>Experience the best of Mayukha by reserving your table in advance.</p>
+            <form action="#" method="POST" class="reservation-form">
+                <input type="text" name="res_name" placeholder="Your Name" required>
+                <input type="tel" name="res_phone" placeholder="Phone Number" required>
+                <input type="email" name="res_email" placeholder="Email (Optional)">
+                <input type="date" name="res_date" required>
+                <input type="time" name="res_time" min="11:00" max="22:00" required>
+                <input type="number" name="res_guests" placeholder="Number of Guests" min="1" required>
+                <textarea name="res_notes" placeholder="Special Requests (e.g., dietary restrictions, specific table)"
+                    rows="3"></textarea>
+                <button type="submit" class="btn btn-primary">Confirm Reservation</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Mayukha Dine and Drink. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple JavaScript for menu category switching
+        document.addEventListener('DOMContentLoaded', () => {
+            const menuButtons = document.querySelectorAll('.menu-btn');
+            const menuItemsDivs = document.querySelectorAll('.menu-items');
+
+            menuButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Remove active class from all buttons
+                    menuButtons.forEach(btn => btn.classList.remove('active'));
+                    // Add active class to the clicked button
+                    button.classList.add('active');
+
+                    // Hide all menu item divs
+                    menuItemsDivs.forEach(div => div.classList.add('hidden'));
+
+                    // Show the selected menu item div
+                    const targetCategory = button.dataset.category;
+                    document.getElementById(`${targetCategory}-menu`).classList.remove('hidden');
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
